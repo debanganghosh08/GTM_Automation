@@ -1,0 +1,8 @@
+# Keep the deployment bundle to what actually runs.
+# `prompts/` is NOT excluded: the job handlers read those files at runtime.
+reference/
+docs/
+tests/
+.pglite/
+*.tsbuildinfo
+README.md

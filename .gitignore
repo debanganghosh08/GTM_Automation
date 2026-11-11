@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+# Every env file shape, not just the common three: .env.production and .env.vercel
+# were previously committable.
+.env*
+!.env.example
+.pglite/
+*.tsbuildinfo
+.vercel/
+coverage/
+.DS_Store
+Thumbs.db
